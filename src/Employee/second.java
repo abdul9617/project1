@@ -1,29 +1,32 @@
 package Employee;
 
+import java.io.Closeable;
+
 public class second {
-	
-		public static void main(String[] args) {
 
-			int n = 10;
+	public static void main(String[] args) {
 
-			float f = 1.478567346578367863f;
+		int n = 10;
 
-			double d = 1.85976874878954687756878d;
+		float f = 1.478567346578367863f;
 
-			char c = 'a';
+		double d = 1.85976874878954687756878d;
 
-			boolean b = true;
+		char c = 'a';
 
-			String name = "kaushal";
+		boolean b = true;
 
-			System.out.println(n);
+		String name = "kaushal";
 
-			System.out.println(f);
-			System.out.println(d);
-			System.out.println(c);
-			System.out.println(b);
-			System.out.println(name);
+		System.out.println(n);
 
-		}
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(c);
+		System.out.println(b);
+		System.out.println(name);
+		System.out.println("you");
+
+	}
 
 }
